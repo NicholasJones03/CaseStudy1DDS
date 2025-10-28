@@ -13,10 +13,12 @@ https://youtu.be/IcAnoAVLtuo
 #Business Problem
 DDSAnalytics was hired by Frito Lay to identify factors that are driving employee attrition and develop predictive models to reduce turnover costs
 
-#Top 5 Attrition Predicting Variables Used (Top 3 for the KNN- Model)
+#Top 5 Attrition Predicting Variables Used (Top 3 for the Best/Final KNN- Model, Top 5 for the Best/Final NB Model)
 1. Overtime (p-value: 2.3e-15
 2. Stock Option Level (p-value: 3.7e-12)
 3. Job Role (p-value: 3.6e-10)
+4. JobInvolvement (p-value: 5.2e-09)
+5. JobLevel (p-value: 2.1e-08)
 
 #Model Performance
 Final Naive Bayes:
@@ -39,9 +41,9 @@ Net Projected Savings (Best KNN) = 185,200
 
 ##Repository Content
 README.md (Executive Summary)
-'Jones_CaseStudy1.Rmd
-'Jones_CaseStudy1.html
-'Case Study 1.pptm
+Jones_CaseStudy1.Rmd
+Jones_CaseStudy1.html
+Case Study 1.pptm
 
 CaseStudy1-data.csv - Training dataset
 CaseStudy1CompSet-No-Attrition.csv - Competition Dataset
@@ -59,6 +61,12 @@ KNN
 #Model Criteria 
 Minimum 60% sensitivity and 60% specificity for each model
 Maximize Savings
+
+#"#Variables"
+Variable analysis/tests and analysis that was used to choose variables for model
+
+#"#Submission"
+Code for the attrition prediction of the unknown dataset
 
 ##Software
 R (Version 4.5.1)
